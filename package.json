@@ -357,23 +357,5 @@
     "setupTestFrameworkScriptFile": "<rootDir>/internals/testing/test-bundler.js"
   },
   "declinationId": "react",
-  "contributors": [],
-  "transitive": {
-    "name": "react-intl-polyfill",
-    "scopedName": "react-intl-polyfill",
-    "jsnext:main": "dist/react-intl-polyfill.esm.js",
-    "module": "dist/react-intl-polyfill.esm.js",
-    "homepage": "https://yeutech-lab.github.io/react-intl-polyfill",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/yeutech-lab/react-intl-polyfill.git"
-    },
-    "bugs": {
-      "url": "https://github.com/yeutech-lab/react-intl-polyfill/issues"
-    },
-    "publishConfig": {
-      "access": "public",
-      "registry": "https://registry.npmjs.org"
-    }
-  }
+  "contributors": []
 }
