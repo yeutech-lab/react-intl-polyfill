@@ -1,6 +1,6 @@
 {
   "name": "@yeutech/react-intl-polyfill",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "React component that add window.Intl support before rendering if the browser doesn't have it",
   "main": "lib/index.js",
   "jsnext:main": "dist/@yeutech/react-intl-polyfill/index.js",
@@ -38,7 +38,8 @@
     "prestyleguide": "npm run jsdoc",
     "styleguide": "styleguidist server",
     "prestyleguide:build": "npm run jsdoc",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "postinstall": "node -e \"console.log('\\u001b[31m@yeutech/react-intl-polyfill is deprecated, use react-intl-polyfill instead.')\" || exit 0"
   },
   "repository": {
     "type": "git",
