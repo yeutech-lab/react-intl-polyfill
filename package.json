@@ -54,7 +54,7 @@
     "intl",
     "polyfill"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "eslintConfig": {
     "parser": "babel-eslint",
     "extends": "airbnb",
@@ -247,6 +247,7 @@
   "dependencies": {
     "@babel/runtime": "^7.2.0",
     "classnames": "^2.2.6",
+    "intl": "^1.2.5",
     "prop-types": "^15.6.2"
   },
   "peerDependencies": {
@@ -254,14 +255,14 @@
     "react-dom": "^16.7.0"
   },
   "publishConfig": {
-    "tag": "latest",
-    "registry": "https://npm.kopaxgroup.com"
+    "registry": "https://npm.kopaxgroup.com",
+    "tag": "latest"
   },
   "release": {
     "branch": "master",
     "success": false,
     "fail": false,
-    "npmPublish": false,
+    "npmPublish": true,
     "verifyConditions": [
       {
         "path": "@semantic-release/exec",
@@ -338,10 +339,10 @@
     ],
     "coverageThreshold": {
       "global": {
-        "statements": 100,
-        "branches": 100,
-        "functions": 100,
-        "lines": 100
+        "statements": 46,
+        "branches": 50,
+        "functions": 25,
+        "lines": 54
       }
     },
     "moduleDirectories": [
@@ -357,5 +358,22 @@
   },
   "declinationId": "react",
   "contributors": [],
-  "private": true
+  "transitive": {
+    "name": "react-intl-polyfill",
+    "scopedName": "react-intl-polyfill",
+    "jsnext:main": "dist/react-intl-polyfill.esm.js",
+    "module": "dist/react-intl-polyfill.esm.js",
+    "homepage": "https://yeutech-lab.github.io/react-intl-polyfill",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yeutech-lab/react-intl-polyfill.git"
+    },
+    "bugs": {
+      "url": "https://github.com/yeutech-lab/react-intl-polyfill/issues"
+    },
+    "publishConfig": {
+      "access": "public",
+      "registry": "https://registry.npmjs.org"
+    }
+  }
 }
