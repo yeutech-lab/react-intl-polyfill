@@ -3,8 +3,8 @@
   "version": "0.0.0-development",
   "description": "React component that add window.Intl support before rendering if the browser doesn't have it",
   "main": "lib/index.js",
-  "jsnext:main": "dist/@yeutech/react-intl-polyfill.esm.js",
-  "module": "dist/@yeutech/react-intl-polyfill.esm.js",
+  "jsnext:main": "dist/@yeutech/react-intl-polyfill/index.js",
+  "module": "dist/@yeutech/react-intl-polyfill/index.js",
   "homepage": "https://yeutech.yeutech.com/react-intl-polyfill",
   "engines": {
     "node": ">=8"
