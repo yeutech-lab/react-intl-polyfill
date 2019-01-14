@@ -1,6 +1,6 @@
 # react-intl-polyfill
 
-[![Build Status](https://travis-ci.org/react-intl-polyfill.svg?branch=master)](https://travis-ci.org/react-intl-polyfill)
+[![Build Status](https://travis-ci.org/yeutech-lab/react-intl-polyfill.svg?branch=master)](https://travis-ci.org/yeutech-lab/react-intl-polyfill)
 [![npm Version](https://img.shields.io/npm/v/react-intl-polyfill.svg?style=flat)](https://www.npmjs.com/package/react-intl-polyfill)
 [![License](https://img.shields.io/npm/l/react-intl-polyfill.svg?style=flat)](https://www.npmjs.com/package/react-intl-polyfill)
 [![NPM monthly downloads](https://img.shields.io/npm/dm/react-intl-polyfill.svg?style=flat)](https://npmjs.org/package/react-intl-polyfill)
