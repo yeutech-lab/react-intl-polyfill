@@ -6,7 +6,7 @@
 [![NPM monthly downloads](https://img.shields.io/npm/dm/react-intl-polyfill.svg?style=flat)](https://npmjs.org/package/react-intl-polyfill)
 [![NPM total downloads](https://img.shields.io/npm/dt/react-intl-polyfill.svg?style=flat)](https://npmjs.org/package/react-intl-polyfill)
 [![npm Version](https://img.shields.io/node/v/react-intl-polyfill.svg?style=flat)](https://www.npmjs.com/package/react-intl-polyfill)
-[![Module formats](https://img.shields.io/badge/module%20formats-umd%2C%20cjs%2C%20esm-green.svg?style=flat)](https://www.npmjs.com/package/react-intl-polyfill)
+[![Module formats](https://img.shields.io/badge/module%20formats-cjs%2C%20esm-green.svg?style=flat)](https://www.npmjs.com/package/react-intl-polyfill)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=com.github.yeutech-lab.react-intl-polyfill&metric=coverage)](https://sonarcloud.io/dashboard?id=com.github.yeutech-lab.react-intl-polyfill) [![Quality gate status](https://sonarcloud.io/api/project_badges/measure?project=com.github.yeutech-lab.react-intl-polyfill&metric=alert_status)](https://sonarcloud.io/dashboard?id=com.github.yeutech-lab.react-intl-polyfill)
 
 
@@ -24,6 +24,26 @@ React component that add window.Intl support before rendering if the browser doe
 ## Documentation
 
 Read [react-intl-polyfill documentation](https://yeutech-lab.github.io/react-intl-polyfill).
+
+## Usage
+
+Basically, it will achieve the same thing as in here: https://github.com/andyearnshaw/Intl.js#intljs-and-browserifywebpack
+
+Except it use react component for doing it.
+
+```js
+<IntlPolyfill locales={['en', 'fr', 'vi']}>
+  This zone support <code>window.Intl</code>
+</IntlPolyfill>
+```
+
+You can pass a loading component using `fallback` props for those who must use the polyfill, it will be used while loading the polyfill with ajax.
+
+```
+<IntlPolyfill locales={['en', 'fr', 'vi']} fallback={<div>Please wait...</div>}>
+  This zone support <code>window.Intl</code>
+</IntlPolyfill>
+```
 
 
 ## Contributing
