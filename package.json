@@ -1,6 +1,6 @@
 {
   "name": "react-intl-polyfill",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "description": "React component that add window.Intl support before rendering if the browser doesn't have it",
   "main": "lib/index.js",
   "jsnext:main": "dist/react-intl-polyfill.esm.js",
