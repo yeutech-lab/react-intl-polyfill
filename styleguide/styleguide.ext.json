@@ -11,10 +11,6 @@
       "content": "docs/introduction.md"
     },
     {
-      "name": "Prerequisite",
-      "content": "docs/prerequisite.md"
-    },
-    {
       "name": "Getting started",
       "content": "docs/getting-started.md",
       "sections": [
@@ -23,19 +19,10 @@
           "content": "docs/installation.md"
         },
         {
-          "name": "Configuration",
-          "content": "docs/configuration.md"
+          "name": "IntlPolyfill",
+          "components": "src/IntlPolyfill.js"
         }
       ]
-    },
-    {
-      "name": "JSdoc",
-      "description": "This part is generated from the JSdoc annotations in the source code.",
-      "content": "docs/js/jsdoc.md"
-    },
-    {
-      "name": "FAQ",
-      "content": "docs/faq.md"
     },
     {
       "name": "Contribute",
