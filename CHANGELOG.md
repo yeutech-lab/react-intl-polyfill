@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/yeutech-lab/react-intl-polyfill/compare/v1.0.2...v1.0.3) (2019-04-01)
+
+
+### Bug Fixes
+
+* **dependencies:** upgrade all dependencies ([2f0b497](https://github.com/yeutech-lab/react-intl-polyfill/commit/2f0b497))
+* **dependencies:** upgrade all dependencies ([05cd40f](https://github.com/yeutech-lab/react-intl-polyfill/commit/05cd40f))
+
 ## [1.0.2](https://github.com/yeutech-lab/react-intl-polyfill/compare/v1.0.1...v1.0.2) (2019-01-14)
 
 
